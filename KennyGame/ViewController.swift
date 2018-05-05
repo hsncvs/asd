@@ -141,7 +141,6 @@ class ViewController: UIViewController {
             
             let replayButton = UIAlertAction(title: "Replay", style: UIAlertActionStyle.default, handler: { (UIAlertAction) in
                 
-                self.score = 1
                 self.score = 0
                 self.scoreLabel.text = "Score: \(self.score)"
                 self.counter = 30
